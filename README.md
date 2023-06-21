@@ -55,4 +55,3 @@ Focusing specifically on the network aspect, the only connections established wi
   ### Examples:
   - "whoami|"
   - "net users|"
-- The date is fixed on May 30th, 2023. You can create unlimited events using the unique ID as the event name.
