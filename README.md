@@ -41,10 +41,23 @@ Every event is composed by two part:
 1. The Title, which contains the unique ID, it means you can schedule multiple commands creating events having the same unique ID as name
 2. The Description, which contains the command to execute and the base64 encoded output using the pipe symbol as separator "|"
 
+## Workflow Attack
+
+![image](https://github.com/Malwareman007/SyncRAT/assets/86009160/ccdaddd1-68e7-439c-b7d6-f40d6b064dcb)
 
 
 ## What a SOC analyst/Blue Teamer will see?
 Focusing specifically on the network aspect, the only connections established will be to Google's servers, making the connection appear completely legitimate.
+Let's check with process hacker:
+![1](https://github.com/Malwareman007/SyncRAT/assets/86009160/ae1978fa-5f5b-488d-b828-bbacdc94d79e)
+
+![2](https://github.com/Malwareman007/SyncRAT/assets/86009160/081ba24e-11b1-4655-802f-67c48d4e141d)
+
+which results in this?:
+![3](https://github.com/Malwareman007/SyncRAT/assets/86009160/a5a5a4b1-51db-4efe-94be-8de4d001b189)
+![4](https://github.com/Malwareman007/SyncRAT/assets/86009160/f08af64b-09bd-4643-9833-d8470503f95b)
+
+
 
 ## How to use it
 - Setup a Google service account and obtain the credentials.json file, place the file in the same directory of the script
